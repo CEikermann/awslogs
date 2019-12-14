@@ -10,5 +10,5 @@ jobs:
       with:
         name: ${GITHUB_REPOSITORY}/awslogs
         username: ${GITHUB_USERNAME}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
