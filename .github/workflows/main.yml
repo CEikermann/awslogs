@@ -8,5 +8,5 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: ${{ GITHUB_REPOSITORY }}/awslogs
+        name: ${GITHUB_REPOSITORY}/awslogs
         registry: docker.pkg.github.com
